@@ -3,46 +3,109 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Name | Portfolio</title>
-    <link rel="stylesheet" href="styles.css"> <!-- Link to your CSS file -->
+    <title>Le Wang - Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 80%;
+            margin: 20px auto;
+            background: #fff;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1, h2, h3 {
+            color: #333;
+        }
+        .section {
+            margin-bottom: 20px;
+        }
+        .contact-info, .skills, .experience, .projects, .education, .languages {
+            padding: 10px;
+        }
+        .contact-info p, .skills ul, .experience ul, .projects ul, .education ul, .languages ul {
+            margin: 5px 0;
+        }
+        .skills ul, .experience ul, .projects ul, .education ul, .languages ul {
+            list-style-type: square;
+        }
+    </style>
 </head>
 <body>
-    <header>
-        <h1>Your Name</h1>
-        <p>A brief tagline about you or your profession.</p>
-    </header>
-    <nav>
-        <ul>
-            <li><a href="#about">About</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-    </nav>
-    <main>
-        <section id="about">
-            <h2>About Me</h2>
-            <p>Write a brief description about yourself, your background, and interests.</p>
-        </section>
-        <section id="projects">
+    <div class="container">
+        <h1>Le Wang</h1>
+        <div class="section contact-info">
+            <h2>Contact</h2>
+            <p><strong>Location:</strong> Viper, KY 41774</p>
+            <p><strong>Phone:</strong> (606) 233-5581</p>
+            <p><strong>Email:</strong> <a href="mailto:wangleboro@gmail.com">wangleboro@gmail.com</a></p>
+        </div>
+
+        <div class="section skills">
+            <h2>Skills</h2>
+            <ul>
+                <li>Programming Languages: Python, Java, PHP, SQL</li>
+                <li>Data Analysis Tools: R, Pandas, NumPy, Matplotlib</li>
+                <li>Machine Learning: Scikit-learn, TensorFlow</li>
+                <li>Databases: MySQL</li>
+                <li>Others: Git, MapReduce, Agile Methodologies</li>
+            </ul>
+        </div>
+
+        <div class="section experience">
+            <h2>Experience</h2>
+            <ul>
+                <li><strong>Associate Professor</strong>, Ningbo University of Finance & Economics (Ningbo, CN) - Oct 2013 - May 2022
+                    <ul>
+                        <li>Supervised student projects focusing on algorithm development and data analysis.</li>
+                        <li>Published research papers on pattern mining.</li>
+                    </ul>
+                </li>
+                <li><strong>Visiting Scholar</strong>, University of Tennessee Knoxville (Knoxville, USA) - Dec 2017 - Nov 2018
+                    <ul>
+                        <li>Conducted research on data mining algorithms and implemented them using R.</li>
+                        <li>Collaborated on data science and machine learning projects.</li>
+                    </ul>
+                </li>
+                <li><strong>Teacher & Programmer</strong>, Nanyang Institute of Technology (Nanyang, CN) - Oct 2000 - Jun 2006
+                    <ul>
+                        <li>Taught courses in programming languages, data structures, and database design.</li>
+                        <li>Developed and maintained the library management system using PowerBuilder and MySQL.</li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+
+        <div class="section projects">
             <h2>Projects</h2>
             <ul>
-                <li><a href="https://github.com/yourusername/project1">Project 1</a> - Brief description of Project 1.</li>
-                <li><a href="https://github.com/yourusername/project2">Project 2</a> - Brief description of Project 2.</li>
-                <!-- Add more projects as needed -->
+                <li><strong>Algorithms Design and Coding</strong> - Published 10+ algorithms on frequent pattern mining using Java and MapReduce.</li>
+                <li><strong>Library Management System</strong> - Developed with PowerBuilder and MySQL.</li>
+                <li><strong>Inventory Management System</strong> - PHP and MySQL-based system for a private company.</li>
+                <li><strong>Movie English Learning</strong> - Implemented using PHP and Java for cyberspacelife.org.</li>
             </ul>
-        </section>
-        <section id="skills">
-            <h2>Skills</h2>
-            <p>List your skills, technologies you are familiar with, etc.</p>
-        </section>
-        <section id="contact">
-            <h2>Contact</h2>
-            <p>You can reach me at: <a href="mailto:your.email@example.com">your.email@example.com</a></p>
-        </section>
-    </main>
-    <footer>
-        <p>&copy; 2024 Your Name. All rights reserved.</p>
-    </footer>
+        </div>
+
+        <div class="section education">
+            <h2>Education</h2>
+            <ul>
+                <li><strong>PhD in Computer Application Technology</strong>, Dalian University of Technology (Dalian, CN) - Sept 2010 - Dec 2013</li>
+                <li><strong>Master's in Computer Application Technology</strong>, Dalian University (Dalian, CN) - Sept 2006 - Jun 2009</li>
+                <li><strong>Bachelor's in Computer Application Technology</strong>, Nanyang Institute of Technology (Nanyang, CN) - Sept 1997 - Jun 2000</li>
+            </ul>
+        </div>
+
+        <div class="section languages">
+            <h2>Languages</h2>
+            <ul>
+                <li>English</li>
+                <li>Chinese</li>
+            </ul>
+        </div>
+    </div>
 </body>
 </html>
